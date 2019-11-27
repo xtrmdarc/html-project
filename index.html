@@ -13,22 +13,25 @@
     Hello World, We are software developers!
 
     <form id="survey-form" style="margin-top: 20px;">
-<<<<<<< HEAD
-      <label for="name" >Name</label>
-      <input id="name" type="text" placeholder="Your name"/>
-      <label for="email">Email</label>
-      <input id="email" type="email "placeholder="Your email">
-      <label for="number">Number</label>
-      <input id="number" type="number" placeholder="Your number"/>
-      <select id="dropdown"></select>
-=======
       <label for="name-label" >Name</label>
-      <input id="name" type="text"/>
+      <input id="name" type="text" placeholder="Your name"/>
+      <br>
       <label for="email-label">Email</label>
-      <input id="email" type="email">
+      <input id="email" type="email "placeholder="Your email">
+      <br>
       <label for="number-label">Number</label>
-      <input id="number" type="number" min="10" max="100" />
->>>>>>> c72ae844604e13a2d254b8db4096a5c2a6da5f55
+      <input id="number" type="number" placeholder="Your number" min="10" max="100"/>
+      <br>
+      <label for="dropdown-label">Job</label>
+      <select id="dropdown" >
+        <option value="o1">Software Engineer </option>
+        <option value="o2">Accountant </option>
+      </select>
+      <br>
+      <label for="country">Country :</label> <br>
+      <input type="radio" name="country" value="peru"  > Peru <br>
+      <input type="radio" name="country" value="canada"> Canada <br>
+       
       <input type="submit">
       
     </form>
